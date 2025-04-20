@@ -89,6 +89,7 @@ def generate_combinations(words, numbers, symbols, max_variations=10000):
                         combinations_set.update(add_symbol_variations(inserted, symbols))
     return combinations_set
 
+
 def interactive_mode():
     words = input("Enter words (comma-separated): ").strip().split(',')
     numbers = input("Enter numbers (comma-separated): ").strip().split(',')
